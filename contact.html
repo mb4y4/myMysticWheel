@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MysticalWheels - About Us and Contact</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Open+Sans&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- 
+      - #HEADER
+    -->
+  
+    <header class="header" data-header>
+      <div class="container">
+  
+        <div class="overlay" data-overlay></div>
+  
+        <a href="index.html" class="logo">
+          <img src="./assets/images/logo.svg" alt="MysticalWheels logo">
+        </a>
+  
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+  
+            <li>
+              <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+            </li>
+  
+            <li>
+              <a href="car_details.html" class="navbar-link" data-nav-link>Explore cars</a>
+            </li>
+  
+            <li>
+              <a href="contact.html" class="navbar-link" data-nav-link>About us</a>
+            </li>
+  
+            <li>
+              <a href="blog.html" class="navbar-link" data-nav-link>Blog</a>
+            </li>
+  
+          </ul>
+        </nav>
+  
+        <div class="header-actions">
+  
+          <div class="header-contact">
+            <a href="https://wa.me/1234567890" class="contact-link">+254 723 782395</a>
+  
+            <span class="contact-time">Mon - Sat: 9:00 am - 4:00 pm</span>
+          </div>
+  
+          <a href="#featured-car" class="btn" aria-labelledby="aria-label-txt">
+            <ion-icon name="car-outline"></ion-icon>
+  
+            <span id="aria-label-txt">Explore cars</span>
+          </a>
+  
+          <a href="user.html" class="btn user-btn" aria-label="Profile">
+            <ion-icon name="person-outline"></ion-icon>
+          </a>
+          
+  
+          <button class="nav-toggle-btn" data-nav-toggle-btn aria-label="Toggle Menu">
+            <span class="one"></span>
+            <span class="two"></span>
+            <span class="three"></span>
+          </button>
+  
+        </div>
+  
+      </div>
+    </header>
+    <section class="section contact" id="contact-link">
+    <section id="about-us">
+        <h2>About Us</h2>
+        <p>We are a dedicated team of professionals passionate about our work. At MysticalWheels, we're passionate about providing you with the keys to your dream car. With a commitment to affordability, flexibility, and exceptional customer service, we make car leasing a hassle-free experience. Our extensive fleet of top-quality vehicles and tailored leasing solutions ensures you'll find the perfect ride to fit your needs. Discover the freedom of driving the car you've always wanted with MysticalWheels.</p>
+        <h2>Mission Statement</h2>
+        <p>“At MysticalWheels, our mission is to revolutionize the car leasing industry by providing a user-friendly online platform that simplifies the leasing process. We aim to connect car lessors and lessees seamlessly, offering comprehensive listings, transparent communication, and a personalized experience. Our goal is to empower users with the information and tools they need to make informed leasing decisions while fostering a sense of trust and convenience in the process.”</p>
+        <h2>Vision Statement</h2>
+        <p>"Our vision is to be the go-to destination for car leasing, setting the industry standard for convenience and transparency. We aspire to create a dynamic online community where car enthusiasts and lessors can connect effortlessly. MysticalWheels aims to continuously innovate, enhance user experiences, and contribute to a future where car leasing is accessible, efficient, and enjoyable for everyone."</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</section>
+
+ <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" alt="Ridex logo">
+          </a>
+
+          <p class="footer-text">
+            Search for classy, reliable rental cars in Nairobi. With a diverse fleet of 19,000 vehicles, MysticalWheels offers its
+            consumers and attractive and fun selection.
+          </p>
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Company</p>
+          </li>
+
+          <li>
+            <a href="contact.html" class="footer-link">About us</a>
+          </li>
+
+          <li>
+            <a href="car_details.html" class="footer-link">Pricing plans</a>
+          </li>
+
+          <li>
+            <a href="blog.html" class="footer-link">Our blog</a>
+          </li>
+
+          <li>
+            <a href="contact.html" class="footer-link">Contacts</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Support</p>
+          </li>
+
+          <li>
+            <a href="contact.html" class="footer-link">Help center</a>
+          </li>
+
+          <li>
+            <a href="car_details.html" class="footer-link">Quick Search</a>
+          </li>
+
+          <li>
+            <a href="contact.html" class="footer-link">Privacy policy</a>
+          </li>
+
+          <li>
+            <a href="contact.html" class="footer-link">Terms & conditions</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Neighborhoods in Nairobi</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Thika</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Central Nairobi</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Upper Hills</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Langata</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Kileleshwa</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Kiambu</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Muthaiga</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Ngong</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-skype"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="mail-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <p class="copyright">
+          &copy; 2023 <a href="#">Mb4y4</a>. All Rights Reserved
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
